@@ -16,7 +16,7 @@ later.
 
 Go through the app structure to understand how things are connected together first.
 
-1) Change Movies scene (src/scenes/Movies.tsx) so it looks close to this design: 
+### 1) Change Movies scene (src/scenes/Movies.tsx) so it looks close to this design: 
 
 ![Movies Design](http://temp2.justart.org/movies_design.png)
 
@@ -34,7 +34,7 @@ should be disabled.
 When user clicks on MovieCard component, he should be navigated to MovieDetail scene which doesn't exist yet
 and you will need to create it. To navigate to detail page, use navigate function from @reach/router module.
 
-2) Create Movie Detail scene
+### 2) Create Movie Detail scene
 
 You will need to create Movie Detail scene in src/scenes and add it to Router component (src/components/Router).
 You will also need to load movie detail creating new api method in api/MoviesApi.tsx called 
