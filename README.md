@@ -6,7 +6,7 @@ In the project directory, you can run:
 ### `yarn test`
 ### `yarn build`
 
-## Technical assignment instructions
+## Instructions
 
 Your task is to do some minor and some major changes to this application. In fact, it is half finished Movie App using
 latest version of React on Typescript. Since it is latest version, it is not using class components anymore.
@@ -18,7 +18,7 @@ Go through the app structure to understand how things are connected together fir
 
 1) Change Movies scene (src/scenes/Movies.tsx) so it looks close to this design: 
 
-[http://temp2.justart.org/movies_design.png]
+![Movies Design](http://temp2.justart.org/movies_design.png)
 
 You should ideally create reusable component (in src/components) MovieCard and style it using Styled Components
 If you haven't heard of Styled Components yet, don't worry using css imported to index.tsx will be just fine.
@@ -44,4 +44,4 @@ Movie Detail scene component in similar way how getTrendingMovies is used in Mov
 
 Try to make it look like in this design: 
 
-[http://temp2.justart.org/movie_detail_design.png]
+![Movie Detail Design](http://temp2.justart.org/movie_detail_design.png)
